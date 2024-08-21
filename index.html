@@ -4,8 +4,204 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biker Zone</title>
+    <link rel="shortcut icon" href="./images/others/extrabike.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script> 
 </head>
 <body>
-    
+                              <!-- Header -->
+     <header class="bg-[#264653] px-10 py-5">
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="navbar-start">
+              <a href="#" class="font-bold  text-2xl text-[#E76F51]">Bike Zone</a>
+            </div>
+
+            <div class="navbar-center hidden lg:flex text-white">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-base font-semibold "><a>Home</a></li>
+                  <li class="text-base font-semibold "><a>Shop</a></li>
+                  <li class="text-base font-semibold "><a>News</a></li>
+                  <li class="text-base font-semibold "><a>Contact</a><li>
+              </ul>
+            </div>
+
+            <div class="navbar-end">
+              <a class="btn bg-[#E76F51] text-white px-5 border-none">Login</a>
+              <div class="dropdown ml-5">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-white">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow top-100 right-0">
+                  <li class="text-lg font-semibold mb-2"><a>Home</a></li>
+                  <li class="text-lg font-semibold mb-2"><a>Shop</a></li>
+                  <li class="text-lg font-semibold mb-2"><a>News</a></li>
+                  <li class="text-lg font-semibold mb-2"><a>Contact</a><li>                
+                </ul>
+              </div>
+            </div>
+        </div>
+        <!-- Hero -->
+        <div class="hero min-h-screen ">
+            <div class="hero-content  lg:flex-row flex-col">
+              <div class="mt-10">
+                <p class="text-sm text-[#E0E0E0]">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="text-5xl font-bold text-white">Honda CBR 300R</h1>
+                <p class="py-6 text-[#E0E0E0] lg:w-3/4">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <button class="btn bg-[#E76F51] text-white px-8 border-none">Purchase</button>
+              </div>
+              <img
+                src="./images/slider/bike3.png"
+                class="mt-10 w-full" />
+            </div>
+          </div>
+     </header>
+    <!-- Featured Section -->
+     <section class="px-10 my-10">
+        <div class="text-center mb-20">
+            <h2 class="text-4xl font-bold">Featured Bikes In This Year</h2>
+            <p class="text-sm text-[#E76F51] font-semibold mt-2">Best bike collection</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-10 gap-16 justify-items-center">
+            <div><img src="./images/others/feature-bike.png" alt=""></div>
+            <div><img src="./images/others/feature-bike.png" alt=""></div>
+            <div><img src="./images/others/feature-bike.png" alt=""></div>
+        </div>
+     </section>
+    <!-- News Section -->
+     <section class="px-10 my-24">
+        <h2 class="text-4xl font-bold text-center mb-16">Latest News</h2>
+        <div class="grid grid-cols-1 gap-10 lg:grid-cols-3 justify-items-center">
+            <div class="card card-compact bg-base-100 w-96 shadow border px-1 pt-5">
+                <figure>
+                  <img src="./images/others/latest2.png" alt="bike" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title font-bold">Motorcycles & Scooters</h2>
+                  <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions">
+                    <button class="bg-white border border-[#E76F51] hover:bg-[#E76F51] hover:text-white px-5 py-2 rounded">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-compact bg-base-100 w-96 shadow border px-1 pt-5">
+                <figure>
+                  <img src="./images/others/latest2.png" alt="bike" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title font-bold">Motorcycles & Scooters</h2>
+                  <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions">
+                    <button class="bg-white border border-[#E76F51] hover:bg-[#E76F51] hover:text-white px-5 py-2 rounded">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-compact bg-base-100 w-96 shadow border px-1 pt-5">
+                <figure>
+                  <img src="./images/others/latest2.png" alt="bike" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title font-bold">Motorcycles & Scooters</h2>
+                  <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions">
+                    <button class="bg-white border border-[#E76F51] hover:bg-[#E76F51] hover:text-white px-5 py-2 rounded">Read More</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+     </section>
+    <!-- Clients Section -->
+     <Section class="px-10">
+        <h2 class="text-4xl font-bold text-center mb-16">Happy <span class="text-[#E76F51]">Clients Says</span></h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center">
+            <div class="card bg-base-100 w-96 shadow border rounded-md ">
+                <figure class="px-5 pt-8">
+                    <div class="avatar">
+                        <div class="w-36 rounded-full">
+                          <img src="./images/others/user-1.png"/>
+                        </div>
+                      </div>
+                </figure>
+                <div class="card-body items-center text-center pt-5">
+                  <p class="">Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-100" />
+                    </div>
+                    <a class="font-semibold text-[blue]" href="#">Van Parsi</a>
+                    <h5 class="font-semibold">Banker</h5>
+                </div>
+            </div> 
+            <div class="card bg-base-100 w-96 shadow border rounded-md ">
+                <figure class="px-5 pt-8">
+                    <div class="avatar">
+                        <div class="w-36 rounded-full">
+                          <img src="./images/others/user-2.png"/>
+                        </div>
+                      </div>
+                </figure>
+                <div class="card-body items-center text-center pt-5">
+                  <p class="">Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-100" />
+                    </div>
+                    <a class="font-semibold text-[blue]" href="#">Alexis Lin</a>
+                    <h5 class="font-semibold">Banker</h5>
+                </div>
+            </div> 
+            <div class="card bg-base-100 w-96 shadow border  rounded-md ">
+                <figure class="px-5 pt-8">
+                    <div class="avatar">
+                        <div class="w-36 rounded-full">
+                          <img src="./images/others/user-3.png"/>
+                        </div>
+                      </div>
+                </figure>
+                <div class="card-body items-center text-center pt-5">
+                  <p class="">Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-100" />
+                    </div>
+                    <a class="font-semibold text-[blue]" href="#">Regina Miles</a>
+                    <h5 class="font-semibold">Banker</h5>
+                </div>
+            </div> 
+        </div>
+     </Section>
 </body>
 </html>
