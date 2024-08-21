@@ -8,71 +8,72 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script> 
 </head>
-<body>
-                              <!-- Header -->
-     <header class="bg-[#264653] px-10 py-5">
+<body>                            <!-- Header -->
+     <header class="bg-[#264653] py-5">
+      <div class="w-11/12 mx-auto">
         <!-- Navbar -->
         <div class="navbar">
-            <div class="navbar-start">
-              <a href="#" class="font-bold  text-2xl text-[#E76F51]">Bike Zone</a>
-            </div>
+          <div class="navbar-start">
+            <a href="#" class="font-bold  text-2xl text-[#E76F51]">Bike Zone</a>
+          </div>
 
-            <div class="navbar-center hidden lg:flex text-white">
-              <ul class="menu menu-horizontal px-1">
-                <li class="text-base font-semibold "><a>Home</a></li>
-                  <li class="text-base font-semibold "><a>Shop</a></li>
-                  <li class="text-base font-semibold "><a>News</a></li>
-                  <li class="text-base font-semibold "><a>Contact</a><li>
+          <div class="navbar-center hidden lg:flex text-white">
+            <ul class="menu menu-horizontal px-1">
+              <li class="text-base font-semibold "><a>Home</a></li>
+                <li class="text-base font-semibold "><a>Shop</a></li>
+                <li class="text-base font-semibold "><a>News</a></li>
+                <li class="text-base font-semibold "><a>Contact</a><li>
+            </ul>
+          </div>
+
+          <div class="navbar-end">
+            <a class="btn bg-[#E76F51] text-white px-5 border-none">Login</a>
+            <div class="dropdown ml-5">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow top-100 right-0">
+                <li class="text-lg font-semibold mb-2"><a>Home</a></li>
+                <li class="text-lg font-semibold mb-2"><a>Shop</a></li>
+                <li class="text-lg font-semibold mb-2"><a>News</a></li>
+                <li class="text-lg font-semibold mb-2"><a>Contact</a><li>                
               </ul>
             </div>
-
-            <div class="navbar-end">
-              <a class="btn bg-[#E76F51] text-white px-5 border-none">Login</a>
-              <div class="dropdown ml-5">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-white">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow top-100 right-0">
-                  <li class="text-lg font-semibold mb-2"><a>Home</a></li>
-                  <li class="text-lg font-semibold mb-2"><a>Shop</a></li>
-                  <li class="text-lg font-semibold mb-2"><a>News</a></li>
-                  <li class="text-lg font-semibold mb-2"><a>Contact</a><li>                
-                </ul>
-              </div>
-            </div>
-        </div>
-        <!-- Hero -->
-        <div class="hero min-h-screen ">
-            <div class="hero-content  lg:flex-row flex-col">
-              <div class="mt-10">
-                <p class="text-sm text-[#E0E0E0]">Computer-controlled digital transistorized with electronic advance</p>
-                <h1 class="text-5xl font-bold text-white">Honda CBR 300R</h1>
-                <p class="py-6 text-[#E0E0E0] lg:w-3/4">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-                </p>
-                <button class="btn bg-[#E76F51] text-white px-8 border-none">Purchase</button>
-              </div>
-              <img
-                src="./images/slider/bike3.png"
-                class="mt-10 w-full" />
-            </div>
           </div>
+      </div>
+      <!-- Hero -->
+      <div class="hero min-h-screen ">
+          <div class="hero-content  lg:flex-row flex-col">
+            <div class="mt-10">
+              <p class="text-sm text-[#E0E0E0]">Computer-controlled digital transistorized with electronic advance</p>
+              <h1 class="text-5xl font-bold text-white">Honda CBR 300R</h1>
+              <p class="py-6 text-[#E0E0E0] lg:w-3/4">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <button class="btn bg-[#E76F51] text-white px-8 border-none">Purchase</button>
+            </div>
+            <img
+              src="./images/slider/bike3.png"
+              class="mt-10 w-full" />
+          </div>
+        </div>
+      </div>
      </header>
     <!-- Featured Section -->
-     <section class="px-10 my-10">
+     <section class="w-11/12 mx-auto my-10">
         <div class="text-center mb-20">
             <h2 class="text-4xl font-bold">Featured Bikes In This Year</h2>
             <p class="text-sm text-[#E76F51] font-semibold mt-2">Best bike collection</p>
@@ -84,7 +85,7 @@
         </div>
      </section>
     <!-- News Section -->
-     <section class="px-10 my-24">
+     <section class="w-11/12 mx-auto my-24">
         <h2 class="text-4xl font-bold text-center mb-16">Latest News</h2>
         <div class="grid grid-cols-1 gap-10 lg:grid-cols-3 justify-items-center">
             <div class="card card-compact bg-base-100 w-96 shadow border px-1 pt-5">
@@ -126,7 +127,7 @@
         </div>
      </section>
     <!-- Clients Section -->
-     <Section class="px-10">
+     <Section class="w-11/12 mx-auto mb-16">
         <h2 class="text-4xl font-bold text-center mb-16">Happy <span class="text-[#E76F51]">Clients Says</span></h2>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center">
             <div class="card bg-base-100 w-96 shadow border rounded-md ">
@@ -203,5 +204,75 @@
             </div> 
         </div>
      </Section>
+    <!-- Question Section -->
+     <section class="w-11/12 mx-auto">
+      <h2 class="text-4xl font-bold text-center my-20">Frequently Asked <span class="text-[#E76F51]">Questions</span></h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          <div class="w-4/6 mx-auto my-5">
+            <img src="./images/others/faq.png" alt="">
+          </div>
+          <div class="join join-vertical w-full my-10">
+            <div class="collapse collapse-arrow join-item border-base-300 border mb-3">
+                <input type="radio" name="my-accordion-4" checked="checked" />
+                <div class="collapse-title text-xl font-medium">What are the most important things I should
+                  know about riding a bike?</div>
+                <div class="collapse-content">
+                  <p class="text-[#7E848C]">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border mb-7">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+                  new one?</div>
+                <div class="collapse-content">
+                  <p class="text-[#7E848C]">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border mb-3">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                <div class="collapse-content">
+                  <p class="text-[#7E848C]">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow join-item border-base-300 border mb-5">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                <div class="collapse-content">
+                  <p class="text-[#7E848C]">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+            </div>
+          </div>
+        </div>
+     </section>
+    <!-- Footer Section -->
+    <footer class="bg-neutral text-neutral-content py-5">
+      <div class="w-11/12 mx-auto">
+        <div class="lg:flex justify-between items-center">
+          <aside class="">
+            <div class="mb-3">
+              <a class="font-semibold mr-5" href="#">Download Now</a>
+              <a class="font-semibold" href="#">License</a>
+            </div>
+            <div>
+              <ul class="font-semibold grid grid-cols-3 gap-3 lg:grid-cols-6">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </aside>
+          <div class=" mt-16">
+            <h6 class="font-medium mb-3 text-lg">Get the App</h6>
+            <a href="#"><img class="w-32 mb-2"  src="./images/others/ios.png" alt=""></a>
+            <a href="#"><img class="w-32" src="./images/others/android.png" alt=""></a>
+          </div>
+        </div>
+        <p class="text-sm text-center lg:text-left mt-10">@2024 bike. All rights reserved</p> 
+      </div>       
+    </footer>
 </body>
 </html>
